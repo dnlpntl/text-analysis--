@@ -1,0 +1,55 @@
+{
+    "name": "Text-Analysis",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "vendor": {
+      "name": "Confluence Tutorials",
+      "url": "https://www.atlassian.com/"
+    },
+    "baseUrl": "{{localBaseUrl}}",
+    "links": {
+      "self": "{{localBaseUrl}}/atlassian-connect.json",
+      "homepage": "{{localBaseUrl}}/atlassian-connect.json"
+    },
+    "authentication": {
+      "type": "jwt"
+    },
+    "lifecycle": {
+      "installed": "/installed"
+    },
+    "scopes": [
+      "READ",
+      "WRITE"
+    ],
+    "modules": {
+      "contentBylineItems": [
+        {
+          "context": "addon",
+          "target": {
+            "type": "inlinedialog",
+              "options": {
+              "height": "300px",
+              "width": "400px"
+            }
+          },
+          "tooltip": {
+            "value": "word-count"
+          },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/images/word_count.png"
+          },
+          "name": {
+            "value": "Word Count"
+          },
+
+          "key": "byline-item",
+          "url": "/word-count?contentId={content.id}"
+        }
+      ]
+    },
+    "apiMigrations": {
+          "gdpr": true
+  }
+}

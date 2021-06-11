@@ -1,0 +1,35 @@
+/* add-on styles */
+.intro-header h1 {
+  font-size: 48px;
+  line-height: 60px;
+  padding-top: 20px;
+}
+.intro-header p.subtitle {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.main-panel .aui-page-panel-item {
+  padding: 20px 40px 20px 0;
+  height: 100px;
+}
+
+p.noteAlt {
+  background-color: #f0f7fb;
+  border-left: solid 4px #0a46d1;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.textstyle { 
+  background-color: #0a46d1 !important;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  font-size: 15px;
+}
+

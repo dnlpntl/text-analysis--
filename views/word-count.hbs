@@ -1,0 +1,27 @@
+{{!< layout}} 
+
+<div class='container'>
+
+   
+    <p class="noteAlt">Words <span class="textstyle"> {{ countedWords }}</span> </p>
+    <p class="noteAlt">Characters <span class="textstyle"> {{ countedChars }}</span> </p>
+    <p class="noteAlt">Avg. word length <span class="textstyle"> {{ avgWordLength }}</span> </p>
+    <p class="noteAlt">Whitespace <span class="textstyle"> {{ countedWhitespace }}</span></p>
+
+    
+</div>
+
+<script>
+    $(function () {
+       
+        var currentWordCount = {{ countedWords }};
+        var currentChars = {{ countedChars }};
+        var currentAvgWordLength = {{ avgWordLength }};
+        var currentWhitespace = {{ countedWhitespace }};
+        
+
+
+
+
+    });
+</script>
