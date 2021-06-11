@@ -1,8 +1,6 @@
-# Atlassian Connect App using Express
+# Atlassian Connect App - Text-Analysis
 
-Congratulations!
-You've successfully created an Atlassian Connect App using the Express web application framework.
+Features:
+Counting words, characters, avg. wordlenght, whitespaces
 
-## What's next?
 
-[Read the docs](https://bitbucket.org/atlassian/atlassian-connect-express/src/master/README.md).
