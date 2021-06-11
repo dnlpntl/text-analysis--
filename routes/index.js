@@ -47,7 +47,7 @@ module.exports = function (app, addon) {
     var stringArray = str1.split(/(\s+)/);
     var groupBy_length = groupBy(stringArray, 'length');
 
-    console.log(groupBy_length);
+    //console.log(groupBy_length);
 
 
 
@@ -58,12 +58,12 @@ module.exports = function (app, addon) {
 
       obj = JSON.parse(obj);
 
-      //console.log(obj.body);
 
       // remove html tags
       var regex = /(<([^>]+)>)/ig;
-      var body = obj.body.storage.value;
-      var html_free_text = body.replace(regex, "");
+
+      var page_content = obj.title + " " + obj.body.storage.value;
+      var html_free_text = page_content.replace(regex, "");
       // count chars
       var characters = html_free_text.length;
       // remove all except whitespace & count

@@ -1,10 +1,10 @@
 {
     "name": "Text-Analysis",
-    "description": "Atlassian Connect app",
-    "key": "com.example.myapp",
+    "description": "Text-Analysing current Confleuncepage",
+    "key": "data.b2bapp.textanalysis",
     "vendor": {
-      "name": "Confluence Tutorials",
-      "url": "https://www.atlassian.com/"
+      "name": "Text Analysis",
+      "url": "https://www.text-analysis.data/"
     },
     "baseUrl": "{{localBaseUrl}}",
     "links": {
